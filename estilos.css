@@ -254,3 +254,36 @@ table tr:nth-child(even) {
 }
 
 
+/*-------------Media Queries----------------*/
+
+@media screen and (max-width: 1000px){
+
+    .cont-ppal .lat-izq{
+        width: 40%;  
+    }
+
+    .central{
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 800px){
+
+    .cont-ppal{
+        display: block;
+    }
+
+    .cont-ppal .lat-izq{
+        width: 100%;  
+    }
+
+    .central{
+        width: 100%;
+    }
+
+    .central .historia-producto .contenido{
+        font-size: 10px;
+    }
+   
+}
+
