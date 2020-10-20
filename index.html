@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="#">
+    <link href="https://fonts.googleapis.com/css2?family=Commissioner:wght@200;300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/809c8bd336.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="estilos.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+       <div>
+           <form id="formulario">
+               <div class="contenedor">
+                    <h2>Ingrese Rut</h2>
+                    
+                    <div>
+                        <input type="text" id="busqueda" name="busqueda">
+                    </div>
+                    <button class="btn-header" type="submit">Buscar<i class="fas fa-search"></i></button>
+    
+               </div>
+           </form>
+       </div>
+    </header>
+
+    <main class="cont-ppal">
+
+        <aside class="lat-izq">
+            <div class="foto">
+                <img src="" id="imagen" alt="">
+            </div>
+
+            <div class="info-personal">
+                <div class="barra-sup">
+                    <h3>Información Personal</h3>
+                </div>
+                <div class="contenido">
+                    <ul>
+                        <li><i class="fas fa-user"></i><span id="nombres"></span></li>
+                        <li><span class="titulo">Distribuidor: </span><span id="distribuidor"></span></li>
+                        <li><span class="titulo">Departamento: </span><span id="departamento"></span></li>
+                        <li><span class="titulo">Oficina: </span><span id="oficina"></span></li>
+                        <li class="email" id="email"></li>
+                        <li id="telefono"></li>
+                    </ul>
+
+                    <button class="btn">
+                        Comenzar Rastreo
+                    </button>
+                </div>
+            </div>
+    
+            <div class="cuentas-asociadas">
+                <div class="barra-sup">
+                    <h3>Cuentas Asociadas</h3>
+                </div>
+
+                <div class="contenido">
+                    <ul>
+                        <li><a href="#" class="titulo">Cuenta 12345 </a></li>
+                        <li><a href="#" class="titulo">Cuenta 12345 </a></li>
+                        <li><a href="#" class="titulo">Cuenta 12345 </a></li>
+                    </ul>
+                </div>
+            </div>
+    
+          
+    
+        </aside>
+    
+        <section class="central">
+            <div class="producto">
+                <div class="foto-producto">
+                    <img id="fotoArticulo" src="" alt="">
+                </div>
+
+                <div class="desc-producto">
+                    <h3>Dispositivo XXX</h3>
+                    <p>
+                        Ut tincidunt, lorem sed sodales vestibulum, nisl mauris imperdiet nisl, 
+                        at consectetur ex est at ipsum. Praesent pulvinar, tellus aliquam mollis 
+                        ultrices.
+                    </p>
+                </div>
+            </div>
+
+            <div class="historia-producto">
+                <div class="barra-sup">
+                    <h3>Historia Del Producto</h3>
+                </div>
+                <div class="contenido">
+                    <table cellspacing="0">
+                        <tr>
+                            <th class="col-1">Fecha</th>
+                            <th class="col-2">Cantidad</th>
+                            <th class="col-3">Producto</th>
+                        </tr>
+                        
+                        <tr>
+                            <td class="col-1">08-2020</td>
+                            <td class="col-2">25</td>
+                            <td class="col-3">Lorem ipsum dolor sit amet, consectetur</td>
+                        </tr>
+
+                        <tr>
+                            <td class="col-1">08-2020</td>
+                            <td class="col-2">25</td>
+                            <td class="col-3">Lorem ipsum dolor sit amet, consectetur</td>
+                        </tr>
+
+                        <tr>
+                            <td class="col-1">08-2020</td>
+                            <td class="col-2">25</td>
+                            <td class="col-3">Lorem ipsum dolor sit amet, consectetur</td>
+                        </tr>
+
+                        <tr>
+                            <td class="col-1">08-2020</td>
+                            <td class="col-2">25</td>
+                            <td class="col-3">Lorem ipsum dolor sit amet, consectetur</td>
+                        </tr>
+
+                        <tr>
+                            <td class="col-1">08-2020</td>
+                            <td class="col-2">25</td>
+                            <td class="col-3">Lorem ipsum dolor sit amet, consectetur</td>
+                        </tr>
+
+                        <tr>
+                            <td class="col-1">08-2020</td>
+                            <td class="col-2">25</td>
+                            <td class="col-3">Lorem ipsum dolor sit amet, consectetur</td>
+                        </tr>
+                    </table>
+
+                </div>
+            </div>
+
+            <div class="historial">
+                <div class="barra-sup">
+                    <h3>Historial</h3>
+                </div>
+
+                <div class="contenido">
+                    <div>
+                        <h3>Lorem ipsum dolor sit amet</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dignissim velit lectus, 
+                            varius aliquam eros finibus non. Maecenas euismod vitae nunc sit amet semper. Donec 
+                            pretium condimentum augue, quis egestas leo convallis nec. Nunc dignissim nec ligula 
+                            vitae euismod. Fusce lacus tellus, tempor et rhoncus hendrerit, auctor at leo. Nullam 
+                            ut mi suscipit, hendrerit purus vitae, aliquet nisi. Proin vel lorem varius, varius turpis
+                            non, rutrum ante. Donec nunc libero
+                        </p>
+                    </div>
+
+                    <div>
+                        <h3>Lorem ipsum dolor sit amet</h3>
+                        <p>
+                            Etiam dignissim velit lectus, varius aliquam eros finibus non. 
+                            Maecenas euismod vitae nunc sit amet semper. Donec pretium 
+                            condimentum augue
+                        </p>
+                    </div>
+                </div>
+            </div>
+    
+        </section>
+    
+    </main>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

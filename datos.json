@@ -1,0 +1,111 @@
+[
+    {
+        "rut": "11111111-1",
+        "nombres": "Adolfo Ernesto", 
+        "apellidos": "Romero Sanchez",
+        "departamento": "Compras",
+        "distribuidor": "Text SPA",
+        "oficina": "Punta Arenas",
+        "email": "adolfo@email.com",
+        "telefono": "555-666666",
+        "foto": "img/1.png",
+        "fotoArticulo":"img/A1.png"
+    },
+    {
+        "rut": "11111111-2",
+        "nombres": "Gabriel Adolfo", 
+        "apellidos": "Chacin Gomez",
+        "departamento": "Ventas",
+        "distribuidor": "Agricultora LTDA",
+        "oficina": "Talca",
+        "email": "gabriel@email.com",
+        "telefono": "555-111444",
+        "foto": "img/2.png",
+        "fotoArticulo":"img/A2.png"
+    },
+    {
+        "rut": "11111111-3",
+        "nombres": "Antonio Jesus", 
+        "apellidos": "Duarte Alvarez",
+        "departamento": "Marketing",
+        "distribuidor": "Snorkers y Asociados",
+        "oficina": "Concepcion",
+        "email": "ajesus@email.com",
+        "telefono": "555-111777",
+        "foto": "img/3.png",
+        "fotoArticulo":"img/A3.png"
+    },
+    {
+        "rut": "11111111-4",
+        "nombres": "Mario José", 
+        "apellidos": "Ramírez Montero",
+        "departamento": "RRHH",
+        "distribuidor": "Funilca E.I.R.L",
+        "oficina": "Santiago",
+        "email": "mario@email.com",
+        "telefono": "555-111888",
+        "foto": "img/4.png",
+        "fotoArticulo":"img/A4.png"
+    },
+    {
+        "rut": "11111111-5",
+        "nombres": "Jeús Antonio", 
+        "apellidos": "Juárez Ramírez",
+        "departamento": "Compras",
+        "distribuidor": "Textil Line SPA",
+        "oficina": "Antofagasta",
+        "email": "jesusA@email.com",
+        "telefono": "555-111999",
+        "foto": "img/5.png",
+        "fotoArticulo":"img/A5.png"
+    },
+    {
+        "rut": "11111111-6",
+        "nombres": "Juan Alberto", 
+        "apellidos": "Hidalgo Henríquez",
+        "departamento": "Compras",
+        "distribuidor": "Agricultora LTDA",
+        "oficina": "Concepción",
+        "email": "jhidalgo@email.com",
+        "telefono": "555-111222",
+        "foto": "img/6.png",
+        "fotoArticulo":"img/A6.png"
+    },
+    {
+        "rut": "11111111-7",
+        "nombres": "Bertha Antonieta", 
+        "apellidos": "Alvarado",
+        "departamento": "Marketing",
+        "distribuidor": "Importadora SPA",
+        "oficina": "Valparaiso",
+        "email": "bertha@email.com",
+        "telefono": "555-222777",
+        "foto": "img/7.png",
+        "fotoArticulo":"img/A7.png"
+    },
+    {
+        "rut": "11111111-8",
+        "nombres": "María Carolina", 
+        "apellidos": "Gómez Iriarte",
+        "departamento": "Ventas",
+        "distribuidor": "Curvilineos y Hermanos LTDA",
+        "oficina": "Temuco",
+        "email": "mariagomez@email.com",
+        "telefono": "222-111888",
+        "foto": "img/8.png",
+        "fotoArticulo":"img/A8.png"
+    },
+    {
+        "rut": "11111111-9",
+        "nombres": "Patricia Roberta", 
+        "apellidos": "Madriz González",
+        "departamento": "RRHH",
+        "distribuidor": "Importadora y Distribuidora XXX",
+        "oficina": "Santiago",
+        "email": "patricia@email.com",
+        "telefono": "333-111777",
+        "foto": "img/9.png",
+        "fotoArticulo":"img/A9.png"
+    }
+
+]
