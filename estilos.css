@@ -45,6 +45,8 @@ header{
 .contenedor div{
     width: 250px;
     margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .btn-header{
@@ -241,20 +243,13 @@ table tr:nth-child(even) {
     font-weight: bold;
 }
 
-.central .experiencia .textarea{
-    width: 100%;
-    background: cornflowerblue;
-}
-
-.central .experiencia .textarea textarea{
-    width: 100%;
-    resize: vertical;
-	min-height: 25%;
-	max-height: 40%;
-}
+/*---------------Validación Barra Búsqueda-----------------*/
 
 
+/* <i class="fas fa-exclamation-triangle"></i> */
 /*-------------Media Queries----------------*/
+
+/*Responsive Diesign*/
 
 @media screen and (max-width: 1000px){
 
